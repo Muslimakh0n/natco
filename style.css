@@ -1,0 +1,19 @@
+/* Bismillah */
+
+
+.header{
+    background-image: url(./Icon/Bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+   
+
+}
+
+
+.section__hero{
+    margin-top: -500px;
+    width: 45%;
+}
+
+

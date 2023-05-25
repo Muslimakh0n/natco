@@ -1,0 +1,524 @@
+<!-- Bismillah -->
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./Icon/favIcon.svg" type="image/x-icon" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>NETCO</title>
+  </head>
+  <body>
+    <header class="header mb-5">
+      <div class="container">
+        <nav class="navbar">
+          <div class="container">
+            <a class="navbar-brand" href="#">
+              <img
+                src="./Icon/site-logo.svg"
+                alt="Bootstrap"
+                width="118"
+                height="41"
+              />
+            </a>
+            <!-- added by myself start -->
+            <ul class="nav">
+              <li class="nav-item">
+                <a class="" href="#"
+                  ><img src="./Icon/LocationIcon.svg" alt="location"
+                /></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#"
+                  >г.Ташкент ул. Мустакиллик 5/1</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="" href="#"
+                  ><img src="./Icon/PhoneIcon.svg" alt="Phone"
+                /></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="tel:+998712020022"
+                  >+998 71 202-00-22, +998 71 232-48-84</a
+                >
+              </li>
+            </ul>
+            <!-- Added by myself end -->
+            <button
+              class="navbar-toggler text-white border-0"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasNavbar"
+              aria-controls="offcanvasNavbar"
+              aria-label="Toggle navigation"
+            >
+              <span>МЕНЮ</span>
+              <img src="./img/hamburger-icon.svg" alt="Hamburger Icon" />
+            </button>
+            <div
+              class="offcanvas offcanvas-end"
+              tabindex="-1"
+              id="offcanvasNavbar"
+              aria-labelledby="offcanvasNavbarLabel"
+            >
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                  Offcanvas
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="offcanvas"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul
+                  class="navbar-nav justify-content-end flex-grow-1 pe-3 nav-underline"
+                >
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"
+                      >Главная</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">О компании</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">О компании</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">О компании</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">О компании</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <section>
+      <div class="container">
+        <div class="section__hero">
+          <h1 class="h1 md-fs-3 text-warning">
+            NETCO - бонусная карта от Netco Telecomlk
+          </h1>
+          <p class="text-white my-5">
+            Получите бонусную карту и забудьте о большом количестве дисконтных
+            карт и неудобстве их хранения и пользования
+          </p>
+
+          <button type="button" class="btn btn-danger btn-lg py-3 px-4">
+            Получить карту
+          </button>
+        </div>
+
+        <ul class="nav mt-5">
+          <li class="nav-item">
+            <a class="" href="#"
+              ><img src="./img/Facebook.svg" alt="FacebookLink"
+            /></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Facebook</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="" href="#"
+              ><img src="./img/Instagram.svg" alt="InstagramLink"
+            /></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Instagram</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="" href="#"
+              ><img src="./img/Telegram.svg" alt="TelegramLink"
+            /></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Telegram</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <main>
+      <div class="container">
+        <h1 class="mt-5">Hello</h1>
+      </div>
+    </main>
+    <div class="container my-5 position-relative">
+      <h1>Скидки и бонусы</h1>
+      <div class="cards d-flex justify-content-around align-items-center">
+        <div
+          class="card position-relative shadow mb-5 bg-body-tertiary rounded"
+          style="width: 17rem; height: 450px"
+        >
+          <img
+            src="./img/first.png"
+            class="card-img-top"
+            alt="Yapona Mama Reccomends"
+          />
+          <div class="position-absolute top-0 start-0 p-2">
+            <img src="./img/first Logo.svg" alt="Restaurant Logo" />
+          </div>
+          <div class="position-absolute top-0 end-0 p-2">
+            <img src="./img/first Discount.svg" alt="something" />
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Япона Мама</h5>
+            <a href="#" class="btn btn-warning">Ресторан</a>
+            <p class="card-text mt-3">
+              Адрес: ул. Мирабадская, 9а Ориентир: гостиница Grand Mir
+            </p>
+            <button type="button" class="btn btn-outline-dark py-2 px-5 mt-4">
+              Подробнее
+            </button>
+          </div>
+        </div>
+
+        <div
+          class="card position-relative shadow mb-5 bg-body-tertiary rounded"
+          style="width: 17rem; height: 450px"
+        >
+          <img
+            src="./img/second.png"
+            class="card-img-top"
+            alt="Recomended gymnasy"
+          />
+          <div class="position-absolute top-0 start-0 p-2">
+            <img src="./img/second Logo.svg" alt="thirdLogo" />
+          </div>
+          <div class="position-absolute top-0 end-0 p-2">
+            <img src="./img/second Discount.svg" alt="third" />
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Английская гимназия New Tone</h5>
+            <a href="#" class="btn btn-success">Образование</a>
+            <p class="card-text">
+              Адрес: ул. Фидоийлар, 28 А Ориентир: TIS, Миробадский РУВД
+            </p>
+            <button type="button" class="btn btn-outline-dark py-2 px-5">
+              Подробнее
+            </button>
+          </div>
+        </div>
+
+        <div
+          class="card position-relative shadow mb-5 bg-body-tertiary rounded"
+          style="width: 17rem; height: 450px"
+        >
+          <img
+            src="./img/third.png"
+            class="card-img-top"
+            alt="Recomended gymnasy"
+          />
+          <div class="position-absolute top-0 start-0 p-2">
+            <img src="./img/third Logo.svg" alt="secondLogo" />
+          </div>
+          <div class="position-absolute top-0 end-0 p-2">
+            <img src="./img/third Discount.svg" alt="" />
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Siberian Wellness</h5>
+            <a href="#" class="btn btn-danger">Красота и здоровье</a>
+            <p class="card-text mt-3">
+              Адрес: ул.Нукусская 29 Ориентир: Бывший «Дом Быта»
+            </p>
+            <button type="button" class="btn btn-outline-dark py-2 px-5 mt-4">
+              Подробнее
+            </button>
+          </div>
+        </div>
+
+        <div
+          class="card position-relative shadow mb-5 bg-body-tertiary rounded"
+          style="width: 17rem; height: 450px"
+        >
+          <img
+            src="./img/4.png"
+            class="card-img-top"
+            alt="Recomended gymnasy"
+          />
+          <div class="position-absolute top-0 start-0 p-2">
+            <img src="./img/4 Logo.svg" alt="secondLogo" />
+          </div>
+          <div class="position-absolute top-0 end-0 p-2">
+            <img src="./img/4 Discount.svg" alt="" />
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Legalact</h5>
+            <a href="#" class="btn btn-danger">Услуги</a>
+            <p class="card-text mt-3">
+              Адрес: ул. Фуркат, д. 175 Ориентир: The Tower Mall Management
+              Group
+            </p>
+            <button type="button" class="btn btn-outline-dark py-2 px-5 mt-3">
+              Подробнее
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="cards d-flex justify-content-around align-items-center mt-5">
+        <div
+          class="card position-relative shadow mb-5 bg-body-tertiary rounded"
+          style="width: 17rem; height: 450px"
+        >
+          <img
+            src="./img/4-4.png"
+            class="card-img-top"
+            alt="Recomended gymnasy"
+          />
+          <div class="position-absolute top-0 start-0 p-2">
+            <img src="./img/4-4 Logo.svg" alt="secondLogo" />
+          </div>
+          <div class="position-absolute top-0 end-0 p-2">
+            <img src="./img/4-4 Discount.svg" alt="" />
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Авеню Парк</h5>
+            <a href="#" class="btn btn-danger">Отдых</a>
+            <p class="card-text mt-3">
+              Адрес: Бостанлыкский р, поселок Юсуфхона Ориентир: Чарвак
+            </p>
+            <button type="button" class="btn btn-outline-dark py-2 px-5 mt-3">
+              Подробнее
+            </button>
+          </div>
+        </div>
+
+        <div
+          class="card position-relative shadow mb-5 bg-body-tertiary rounded"
+          style="width: 17rem; height: 450px"
+        >
+          <img
+            src="./img/2-2 Photo.png"
+            class="card-img-top"
+            alt="Recomended gymnasy"
+          />
+          <div class="position-absolute top-0 start-0 p-2">
+            <img src="./img/2-2 Logo.svg" alt="secondLogo" />
+          </div>
+          <div class="position-absolute top-0 end-0 p-2">
+            <img src="./img/2-2 Discount.svg" alt="" />
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">La Frame Studio</h5>
+            <a href="#" class="btn btn-primary">Услуги</a>
+            <p class="card-text mt-3">
+              Адрес: ул. Коратош 2 Ориентир: Корзинка Коратош
+            </p>
+            <button type="button" class="btn btn-outline-dark py-2 px-5 mt-3">
+              Подробнее
+            </button>
+          </div>
+        </div>
+
+        <div
+          class="card position-relative shadow mb-5 bg-body-tertiary rounded"
+          style="width: 17rem; height: 450px"
+        >
+          <img
+            src="./img/3-3.png"
+            class="card-img-top"
+            alt="Recomended gymnasy"
+          />
+          <div class="position-absolute top-0 start-0 p-2">
+            <img src="./img/3-3 Logo.svg" alt="secondLogo" />
+          </div>
+          <div class="position-absolute top-0 end-0 p-2">
+            <img src="./img/3-3 Discount.svg" alt="" />
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Caffelito Coffee</h5>
+            <a href="#" class="btn btn-danger">Кофейня</a>
+            <p class="card-text mt-3">
+              Адрес: Чиланзар-16, 18а Ориентир: Чиланзар
+            </p>
+            <button type="button" class="btn btn-outline-dark py-2 px-5 mt-3">
+              Подробнее
+            </button>
+          </div>
+        </div>
+
+        <div
+          class="card position-relative shadow mb-5 bg-body-tertiary rounded"
+          style="width: 17rem; height: 450px"
+        >
+          <img
+            src="./img/last.png"
+            class="card-img-top"
+            alt="Recomended gymnasy"
+          />
+          <div class="position-absolute top-0 start-0 p-2">
+            <img src="./img/lastLogo.svg" alt="secondLogo" />
+          </div>
+          <div class="position-absolute top-0 end-0 p-2">
+            <img src="./img/last Discount.svg" alt="" />
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Personal Development Process</h5>
+            <a href="#" class="btn btn-success">Образование</a>
+            <p class="card-text mt-3">
+              Адрес: ул. Мукимий, 98-а Ориентир: Узбекский государственный цирк
+            </p>
+            <button type="button" class="btn btn-outline-dark py-2 px-5">
+              Подробнее
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="bttn position-absolute end-0 shadow-lg bg-body-tertiary rounded"
+      >
+        <button type="button" class="btn btn-dark py-2 px-5">
+          Все скидки и бонусы
+        </button>
+      </div>
+    </div>
+    <div class="container">
+      <h1>Новости</h1>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card border border-0">
+            <img
+              src="./img/stul.png"
+              class="card-img-top"
+              alt="Just something"
+            />
+            <div class="card-body">
+              <p>28-август, 2019</p>
+              <h5 class="card-title">
+                Оберните голову вокруг крупномасштабной архитектуры
+              </h5>
+              <p class="card-text">
+                Несколько мыслей о том, как приблизиться к большим архитектурным
+                формам и не быть подавленным ими.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border border-0">
+            <img src="./img/Photo.png" class="card-img-top" alt="" />
+
+            <div class="card-body">
+              <p>12-декабрь, 2019</p>
+              <h5 class="card-title">
+                Почему это хорошая идея затеряться в Чикаго
+              </h5>
+              <p class="card-text">
+                Почувствуйте, как воздух "города ветров" давит вам на лицо.
+                Третий по величине город США-идеальное место для . . .
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border border-0">
+            <img
+              src="./img/ofis.png"
+              class="card-img-top"
+              alt="someones ofis"
+            />
+
+            <div class="card-body">
+              <p>30-январь, 2020</p>
+              <h5 class="card-title">
+                Как мы поехали в Лас-Вегас и выиграли 8 долларов
+              </h5>
+              <p class="card-text">
+                Умение вовремя остановиться никогда не было моей чертой. Однако
+                на этот раз я настолько увлекся самим городом, что . . .
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer start -->
+    <div class="container bg-dark">
+      <nav class="navbar">
+        <a class="navbar-brand" href="#">
+          <img
+            src="./Icon/site-logo.svg"
+            alt="Bootstrap"
+            width="118"
+            height="41"
+          />
+        </a>
+
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="" href="#"
+              ><img src="./Icon/LocationIcon.svg" alt="location"
+            /></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#"
+              >г.Ташкент ул. Мустакиллик 5/1</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="" href="#"
+              ><img src="./Icon/PhoneIcon.svg" alt="Phone"
+            /></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="tel:+998712020022"
+              >+998 71 202-00-22, +998 71 232-48-84</a
+            >
+          </li>
+        </ul>
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="" href="#"
+              ><img src="./img/Facebook.svg" alt="FacebookLink"
+            /></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Facebook</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="" href="#"
+              ><img src="./img/Instagram.svg" alt="InstagramLink"
+            /></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Instagram</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="" href="#"
+              ><img src="./img/Telegram.svg" alt="TelegramLink"
+            /></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Telegram</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
